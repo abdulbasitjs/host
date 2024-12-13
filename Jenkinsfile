@@ -1,28 +1,47 @@
 pipeline {
     agent any
     
+    tools {
+        nodejs 'node19' 
+    }
+    
     stages {
-        stage('Hello') {
+        stage('Checkout') {
             steps {
-                echo 'Hello World from Pipeline!'
-                sh 'pwd' // print working directory
-                sh 'ls -la' // list files
+                echo 'Checking out code...'
+                checkout scm
             }
         }
         
-        stage('Branch Info') {
+        stage('Install Dependencies') {
             steps {
-                echo "Running on branch: ${env.BRANCH_NAME ?: 'undefined'}"
+                echo 'Installing dependencies...'
+                sh '''
+                    npm install -g pnpm
+                    pnpm install
+                '''
+            }
+        }
+        
+        stage('Build BO App') {
+            steps {
+                echo 'Building BO Account Upgrade app...'
+                sh 'pnpm run build:bo'  
+                
+                sh '''
+                    echo "Build output contents:"
+                    ls -la dist/apps/bo-account-upgrade
+                '''
             }
         }
     }
     
     post {
         success {
-            echo 'Pipeline completed successfully! 🎉'
+            echo 'Build completed successfully! 🎉'
         }
         failure {
-            echo 'Pipeline failed! 😢'
+            echo 'Build failed! 😢'
         }
     }
 }
