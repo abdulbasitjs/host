@@ -1,50 +1,28 @@
 pipeline {
-    environment {
-        BUCKET_NAME = 'abduljs-bucket'
-        PROJECT_ID = 'hardy-binder-444609-a1'
-        APP_PATH = 'account-upgrade/bo'
-    }
     agent any
-    tools {
-        nodejs 'node19'
-    }
     
     stages {
-        stage('Checkout') {
+        stage('Hello') {
             steps {
-                checkout scm
+                echo 'Hello World from Pipeline!'
+                sh 'pwd' // print working directory
+                sh 'ls -la' // list files
             }
         }
-
-        stage('Install Dependencies') {
+        
+        stage('Branch Info') {
             steps {
-                sh 'npm install -g pnpm'
-                sh 'pnpm install'
-            }
-        }
-
-        stage('Build') {
-            steps {
-                sh 'pnpm run build:bo'
-            }
-        }
-
-        stage('Deploy to GCS') {
-            steps {
-                withCredentials([file(credentialsId: 'gcp-credentials', variable: 'GOOGLE_APPLICATION_CREDENTIALS')]) {
-                    sh """
-                        gcloud auth activate-service-account --key-file=\$GOOGLE_APPLICATION_CREDENTIALS
-                        gcloud config set project ${PROJECT_ID}
-                        gsutil rsync -d -r dist/apps/bo-account-upgrade gs://${BUCKET_NAME}/${APP_PATH}
-                    """
-                }
+                echo "Running on branch: ${env.BRANCH_NAME ?: 'undefined'}"
             }
         }
     }
-
+    
     post {
         success {
-            echo "Deployment successful! App available at: https://storage.googleapis.com/${BUCKET_NAME}/${APP_PATH}/index.html"
+            echo 'Pipeline completed successfully! 🎉'
+        }
+        failure {
+            echo 'Pipeline failed! 😢'
         }
     }
 }
