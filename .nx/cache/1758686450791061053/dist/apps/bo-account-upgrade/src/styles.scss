@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-wrapper {
+  background-image: url('@account-upgrade-ui/assets/icons/onboarding-v2-pattern.svg');
+  background-color: rgb(10 48 112 / 1);
+}

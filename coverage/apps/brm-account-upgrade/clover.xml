@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1734006213171" clover="3.2.0">
+  <project timestamp="1734006213171" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="7" coveredmethods="7" elements="21" coveredelements="21" complexity="0" loc="13" ncloc="13" packages="2" files="2" classes="2"/>
+    <package name="app">
+      <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="app.tsx" path="/Users/abdulbasit/Desktop/Abdul/Moniepoint/account-upgrade-ui/apps/brm-account-upgrade/src/app/app.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.routes">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="routes.tsx" path="/Users/abdulbasit/Desktop/Abdul/Moniepoint/account-upgrade-ui/apps/brm-account-upgrade/src/app/routes/routes.tsx">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -1,0 +1,56 @@
+const commonConfig = {
+  clearMocks: true,
+  resetMocks: true,
+  restoreMocks: true,
+  resetModules: true,
+  coverageThreshold: {
+    global: {
+      branches: 80,
+      functions: 80,
+      lines: 80,
+      statements: 80,
+    },
+  },
+  collectCoverage: true,
+  coverageReporters: ['clover', 'json', 'lcov', 'text', 'text-summary'],
+  coverageDirectory: '<rootDir>/../../coverage',
+  collectCoverageFrom: [
+    '<rootDir>/src/**/*.{js,jsx,ts,tsx}',
+    '<rootDir>/lib/**/*.{js,jsx,ts,tsx}',
+    '!**/*.d.ts',
+    '!**/index.{js,ts}',
+    '!**/main.{js,jsx,ts,tsx}',
+    '!**/*.stories.{js,jsx,ts,tsx}',
+    '!**/vite-env.d.ts',
+    '!**/*.spec.{js,jsx,ts,tsx}',
+    '!**/*.test.{js,jsx,ts,tsx}',
+    '!**/node_modules/**',
+    '!**/dist/**',
+  ],
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    '/dist/',
+    '/typings/',
+    '/.nx/',
+    '/coverage/',
+    '__mocks__',
+    'test-setup',
+    'jest.config',
+    'vite.config',
+  ],
+  moduleNameMapper: {
+    '^@tests/(.*)$': '<rootDir>/../../tests/$1',
+    '^__mocks__/(.*)$': '<rootDir>/__mocks__/$1',
+    '\\.(scss|sass|css)$': 'identity-obj-proxy',
+  },
+  moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
+  testPathIgnorePatterns: [
+    '<rootDir>/.nx/',
+    '<rootDir>/node_modules/',
+    '<rootDir>/dist/',
+    '<rootDir>/typings/',
+    '<rootDir>/__mocks__/',
+  ],
+};
+
+export { commonConfig };

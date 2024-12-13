@@ -1,0 +1,9 @@
+{
+  "name": "bo-account-upgrade",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/bo-account-upgrade/src",
+  "projectType": "application",
+  "tags": ["scope:apps"],
+  "// targets": "to see all targets run: nx show project bo-account-upgrade --web",
+  "targets": {}
+}
