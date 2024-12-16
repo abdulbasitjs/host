@@ -6,10 +6,10 @@ pipeline {
     }
     
     environment {
-        PROJECT_ID = 'hardy-binder-444609-a1'    // Replace with your GCP project ID
-        BUCKET_NAME = ' abduljs-bucket'      // Replace with your GCS bucket name
-        APP_PATH = 'bo-account-upgrade'       // The path in your bucket where files will be uploaded
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('hardy-binder-444609-a1-7452f38cd5be.json') // Assuming 'gcr-json-key' is your credentials ID
+        PROJECT_ID = 'hardy-binder-444609-a1'
+        BUCKET_NAME = ' abduljs-bucket'
+        APP_PATH = 'bo-account-upgrade'
+        GOOGLE_APPLICATION_CREDENTIALS = credentials('hardy-binder-444609-a1-7452f38cd5be.json')
     }
     
     stages {
@@ -45,7 +45,7 @@ pipeline {
         stage('Deploy to GCS') {
             steps {
                 sh """
-                    gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
+                    gcloud auth activate-service-account --key-file='gcp-key'
                     gcloud config set project ${PROJECT_ID}
                     gsutil rsync -d -r dist/apps/bo-account-upgrade gs://${BUCKET_NAME}/${APP_PATH}
                 """
