@@ -9,7 +9,7 @@ pipeline {
         PROJECT_ID = 'hardy-binder-444609-a1'
         BUCKET_NAME = 'abduljs-bucket'
         APP_PATH = 'bo-account-upgrade'
-        GCP_KEY_FILE = '/var/jenkins_home/gcr.json'
+        GCP_KEY_FILE = '/var/jenkins_home/gcrbo.json'
     }
     
     stages {
@@ -34,7 +34,7 @@ pipeline {
                 sh 'ls -la dist/apps/bo-account-upgrade'
             }
         }
-        
+
 
         stage('Deploy to GCS') {
             steps {
