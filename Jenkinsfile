@@ -5,12 +5,7 @@ pipeline {
         nodejs 'node19' 
     }
     
-    environment {
-        PROJECT_ID = 'hardy-binder-444609-a1'
-        BUCKET_NAME = ' abduljs-bucket'
-        APP_PATH = 'bo-account-upgrade'
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('hardy-binder-444609-a1-7452f38cd5be.json')
-    }
+   
     
     stages {
         stage('Checkout') {
