@@ -36,7 +36,7 @@ pipeline {
 
         stage('Deploy to GCS') {
             steps {
-                withCredentials([file(credentialsId: 'gcp-key', variable: 'gcp-key')]) {
+                withCredentials([file(credentialsId: 'gcp-key', variable: 'hardy-binder-444609-a1-7452f38cd5be.json')]) {
                     sh """
                         gcloud auth activate-service-account --key-file=\$GCP_KEY_FILE
                         gcloud config set project ${PROJECT_ID}
