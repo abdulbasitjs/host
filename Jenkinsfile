@@ -36,8 +36,9 @@ pipeline {
 
         stage('Deploy to GCS') {
             steps {
-                withCredentials([file(credentialsId: 'gcp-key', variable: 'hardy-binder-444609-a1-7452f38cd5be.json')]) {
+                withCredentials([file(credentialsId: 'gcp-key', variable: 'GCP_KEY_FILE')]) {
                     sh """
+                        echo "Using GCP key file: \$GCP_KEY_FILE"
                         gcloud auth activate-service-account --key-file=\$GCP_KEY_FILE
                         gcloud config set project ${PROJECT_ID}
                         gsutil rsync -d -r dist/apps/bo-account-upgrade gs://${BUCKET_NAME}/${APP_PATH}
