@@ -7,7 +7,7 @@ import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
 export default defineConfig({
-  base: 'https://abduljs-bucket.storage.googleapis.com/',
+  base: 'https://abduljs-bucket.storage.googleapis.com/bo-account-upgrade/',
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/bo-account-upgrade',
   server: {
