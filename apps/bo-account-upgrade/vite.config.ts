@@ -16,7 +16,7 @@ export default defineConfig({
   },
   preview: {
     port: 4301,
-    host: 'https://abduljs-bucket.storage.googleapis.com',
+    host: 'https://abduljs-bucket.storage.googleapis.com/bo-account-upgrade',
   },
   css: {
     postcss: {
