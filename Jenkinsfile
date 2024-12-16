@@ -9,7 +9,7 @@ pipeline {
         PROJECT_ID = 'hardy-binder-444609-a1'    // Replace with your GCP project ID
         BUCKET_NAME = ' abduljs-bucket'      // Replace with your GCS bucket name
         APP_PATH = 'bo-account-upgrade'       // The path in your bucket where files will be uploaded
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('hardy-binder-444609-a1-7452f38cd5be') // Assuming 'gcr-json-key' is your credentials ID
+        GOOGLE_APPLICATION_CREDENTIALS = credentials('hardy-binder-444609-a1-7452f38cd5be.json') // Assuming 'gcr-json-key' is your credentials ID
     }
     
     stages {
