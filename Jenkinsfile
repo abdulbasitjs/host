@@ -34,6 +34,7 @@ pipeline {
                 sh 'ls -la dist/apps/bo-account-upgrade'
             }
         }
+        
 
         stage('Deploy to GCS') {
             steps {
