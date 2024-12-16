@@ -7,7 +7,7 @@ pipeline {
     
     environment {
         PROJECT_ID = 'hardy-binder-444609-a1'
-        BUCKET_NAME = ' abduljs-bucket'
+        BUCKET_NAME = 'abduljs-bucket'
         APP_PATH = 'bo-account-upgrade'
     }
     
@@ -15,17 +15,20 @@ pipeline {
         stage('Install gcloud SDK') {
             steps {
                 sh '''
-                    # Install required dependencies
-                    apt-get update && apt-get install -y apt-transport-https ca-certificates gnupg curl sudo
-
-                    # Add Google Cloud SDK distribution URI as a package source
-                    echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] http://packages.cloud.google.com/apt cloud-sdk main" | tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
-
-                    # Import the Google Cloud public key
-                    curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
-
-                    # Update and install the Cloud SDK
-                    apt-get update && apt-get install -y google-cloud-sdk
+                    # Create directory for gcloud
+                    mkdir -p $HOME/google-cloud-sdk
+                    
+                    # Download the SDK
+                    curl -o $HOME/google-cloud-sdk.tar.gz https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-424.0.0-linux-x86_64.tar.gz
+                    
+                    # Extract it to home directory
+                    tar -xf $HOME/google-cloud-sdk.tar.gz -C $HOME
+                    
+                    # Install without prompting
+                    $HOME/google-cloud-sdk/install.sh --quiet --install-dir=$HOME
+                    
+                    # Add to PATH
+                    export PATH=$HOME/google-cloud-sdk/bin:$PATH
                     
                     # Verify installation
                     gcloud version
@@ -66,6 +69,7 @@ pipeline {
             steps {
                 withCredentials([file(credentialsId: 'hardy-binder-444609-a1-7452f38cd5be', variable: 'gcp-key')]) {
                     sh """
+                        export PATH=\$HOME/google-cloud-sdk/bin:\$PATH
                         gcloud auth activate-service-account --key-file=\$GCP_KEY_FILE
                         gcloud config set project ${PROJECT_ID}
                         gsutil rsync -d -r dist/apps/bo-account-upgrade gs://${BUCKET_NAME}/${APP_PATH}
