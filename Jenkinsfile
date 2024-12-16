@@ -18,6 +18,27 @@ pipeline {
                 checkout scm
             }
         }
+
+         stage('Debug Environment') {
+            steps {
+                sh '''
+                    echo "Checking PATH:"
+                    echo $PATH
+                    
+                    echo "Checking if gcloud exists:"
+                    which gcloud || echo "gcloud not found"
+                    
+                    echo "Listing installed packages:"
+                    dpkg -l | grep google-cloud-sdk || echo "google-cloud-sdk not found in packages"
+                    
+                    echo "Checking current directory:"
+                    pwd
+                    
+                    echo "Checking system information:"
+                    uname -a
+                '''
+            }
+        }
         
         stage('Install Dependencies') {
             steps {
