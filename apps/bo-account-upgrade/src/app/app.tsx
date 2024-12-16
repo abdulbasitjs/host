@@ -7,6 +7,7 @@ type AppProps = {
   initialPath?: string;
 };
 
+
 export function App({ isStandAlone = false, initialPath }: AppProps) {
   const appName = MFE_APPS_BASE_PATH.BO;
   const router = useRemoteRouter({
