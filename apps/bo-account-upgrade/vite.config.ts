@@ -16,7 +16,7 @@ export default defineConfig({
   },
   preview: {
     port: 4301,
-    host: 'localhost',
+    host: 'https://abduljs-bucket.storage.googleapis.com',
   },
   css: {
     postcss: {
