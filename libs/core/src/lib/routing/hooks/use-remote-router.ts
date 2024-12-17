@@ -20,7 +20,7 @@ export const useRemoteRouter = ({
   initialPath,
   appName,
 }: UseRemoteRouterProps) => {
-  const router = isStandAlone
+  const router = false
     ? createBrowserRouter(routes, {
       basename: '/bo-account-upgrade/'
     })
