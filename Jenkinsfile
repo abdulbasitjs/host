@@ -13,6 +13,7 @@ pipeline {
         AWS_ACCESS_KEY_ID = 'AKIAQR5EPGLZDKKMCLX5'
         AWS_SECRET_ACCESS_KEY = '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'
         S3_BUCKET_NAME = 'mfe-host-account-upgrade'
+        AWS_REGION = 'us-east-1'
     }
     
     stages {
