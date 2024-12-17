@@ -50,14 +50,14 @@ pipeline {
         //     }
         // }
 
-        stage('Deploy to S3') {
+         stage('Deploy to S3') {
             steps {
-                sh """
-                    export AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
-                    export AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
-                    export AWS_REGION=${AWS_REGION}
-                    aws s3 sync dist/apps/bo-account-upgrade s3://${S3_BUCKET_NAME}/${APP_PATH} --delete
-                """
+                withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-key']]) {
+                    sh """
+                        export AWS_REGION=${AWS_REGION}
+                        aws s3 sync dist/apps/bo-account-upgrade s3://${S3_BUCKET_NAME}/${APP_PATH} --delete
+                    """
+                }
             }
         }
     }
