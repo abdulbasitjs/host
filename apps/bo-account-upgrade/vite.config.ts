@@ -8,7 +8,6 @@ import path from 'path';
 
 // https://d2rpeoqxjornyi.cloudfront.net/bo-account-upgrade/
 export default defineConfig({
-  base: 'https://d2rpeoqxjornyi.cloudfront.net/bo-account-upgrade/',
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/bo-account-upgrade',
   server: {
