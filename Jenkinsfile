@@ -14,6 +14,7 @@ pipeline {
         AWS_SECRET_ACCESS_KEY = 'zLz3/G6xgAx/WRtficHUt1FXTYzr0lZru8cWRO35'
         S3_BUCKET_NAME = 'mfe-host-account-upgrade'
         AWS_REGION = 'us-east-1'
+        AWS_DISTRIBUTION_ID = 'E2XQMAQM6TT7XT'
     }
     
     stages {
@@ -56,6 +57,16 @@ pipeline {
                     sh """
                         export AWS_REGION=${AWS_REGION}
                         aws s3 sync dist/apps/bo-account-upgrade s3://${S3_BUCKET_NAME}/${APP_PATH} --delete
+                    """
+                }
+            }
+        }
+
+        stage('Invalidate CloudFront Cache') {
+            steps {
+                withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-key']]) {
+                    sh """
+                        aws cloudfront create-invalidation --distribution-id ${AWA_DISTRIBUTION_ID} --paths "/bo-account-upgrade/index.html"
                     """
                 }
             }
