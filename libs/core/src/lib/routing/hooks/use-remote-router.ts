@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect } from "react";
 import {
   createMemoryRouter,
   createBrowserRouter,
   RouteObject,
-} from 'react-router-dom';
+} from "react-router-dom";
 
-import { useRemoteNavigation } from './use-remote-navigation';
+import { useRemoteNavigation } from "./use-remote-navigation";
 
 type UseRemoteRouterProps = {
   isStandAlone?: boolean;
@@ -20,12 +20,12 @@ export const useRemoteRouter = ({
   initialPath,
   appName,
 }: UseRemoteRouterProps) => {
-  const router = false
+  const router = isStandAlone
     ? createBrowserRouter(routes, {
-      basename: '/bo-account-upgrade/'
-    })
+        basename: "/bo-account-upgrade/",
+      })
     : createMemoryRouter(routes, {
-        initialEntries: [initialPath ?? '/'],
+        initialEntries: [initialPath ?? "/"],
       });
 
   const emitNavigation = useRemoteNavigation(appName, (path) => {
