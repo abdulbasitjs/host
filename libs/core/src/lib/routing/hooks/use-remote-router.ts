@@ -22,7 +22,7 @@ export const useRemoteRouter = ({
 }: UseRemoteRouterProps) => {
   const router = isStandAlone
     ? createBrowserRouter(routes, {
-      basename: 'https://d2rpeoqxjornyi.cloudfront.net/bo-account-upgrade/'
+      basename: '/bo-account-upgrade/'
     })
     : createMemoryRouter(routes, {
         initialEntries: [initialPath ?? '/'],
