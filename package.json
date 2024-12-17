@@ -13,7 +13,7 @@
     "build:all": "npm run nx:parallel -- --target=build --all",
     "build:apps": "npm run nx:parallel -- --target=build --projects=tag:scope:apps",
     "build:host": "nx build host",
-    "build:bo": "nx build bo-account-upgrade --base=/bo-account-upgrade/",
+    "build:bo": "nx build bo-account-upgrade",
     "build:brm": "nx build brm-account-upgrade",
     "preview:all": "npm run nx:parallel -- --target=preview --all",
     "preview:apps": "npm run nx:parallel -- --target=preview --projects=tag:scope:apps",
