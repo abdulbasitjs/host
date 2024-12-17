@@ -35,8 +35,8 @@ pipeline {
         stage('Build BO App') {
             steps {
                 echo 'Building BO Account Upgrade app...'
-                sh 'pnpm run build:bo'  
-                sh 'ls -la dist/apps/bo-account-upgrade'
+                sh 'pnpm run build:apps'  
+                sh 'ls -la dist/apps'
             }
         }
 
@@ -56,7 +56,7 @@ pipeline {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-key']]) {
                     sh """
                         export AWS_REGION=${AWS_REGION}
-                        aws s3 sync dist/apps/bo-account-upgrade s3://${S3_BUCKET_NAME}/${APP_PATH} --delete
+                        aws s3 sync dist/apps s3://${S3_BUCKET_NAME} --delete
                     """
                 }
             }
@@ -66,7 +66,7 @@ pipeline {
             steps {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-key']]) {
                     sh """
-                        aws cloudfront create-invalidation --distribution-id ${AWS_DISTRIBUTION_ID} --paths "/bo-account-upgrade/index.html"
+                        aws cloudfront create-invalidation --distribution-id ${AWS_DISTRIBUTION_ID} --paths "/host/index.html"
                     """
                 }
             }

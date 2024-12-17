@@ -22,7 +22,7 @@ export const useRemoteRouter = ({
 }: UseRemoteRouterProps) => {
   const router = isStandAlone
     ? createBrowserRouter(routes, {
-        basename: "/bo-account-upgrade/",
+        basename: `/${appName}/`,
       })
     : createMemoryRouter(routes, {
         initialEntries: [initialPath ?? "/"],

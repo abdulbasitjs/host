@@ -7,16 +7,16 @@ import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
 export default defineConfig({
-  base: '/bo-account-upgrade/',
+  base: 'https://d2rpeoqxjornyi.cloudfront.net/bo/',
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/bo-account-upgrade',
+  cacheDir: '../../node_modules/.vite/apps/bo',
   server: {
     port: 4201,
     host: 'localhost',
   },
   preview: {
     port: 4301,
-    host: '/bo-account-upgrade/',
+    host: 'localhost',
   },
   css: {
     postcss: {
@@ -79,7 +79,7 @@ export default defineConfig({
   //  plugins: [ nxViteTsPaths() ],
   // },
   build: {
-    outDir: '../../dist/apps/bo-account-upgrade',
+    outDir: '../../dist/apps/bo',
     target: 'esnext',
     modulePreload: false,
     emptyOutDir: true,

@@ -393,7 +393,7 @@
               }
             ],
             "outputs": [
-              "{workspaceRoot}/dist/apps/brm-account-upgrade"
+              "{workspaceRoot}/dist/apps/brm"
             ],
             "metadata": {
               "technologies": [
@@ -615,7 +615,7 @@
               }
             ],
             "outputs": [
-              "{workspaceRoot}/dist/apps/bo-account-upgrade"
+              "{workspaceRoot}/dist/apps/bo"
             ],
             "metadata": {
               "technologies": [

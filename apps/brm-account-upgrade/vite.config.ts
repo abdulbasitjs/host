@@ -7,9 +7,9 @@ import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
 export default defineConfig({
-  base: 'http://localhost:4302/',
+  base: 'https://d2rpeoqxjornyi.cloudfront.net/brm/',
   root: __dirname,
-  cacheDir: '../../node_modules/.vite/apps/brm-account-upgrade',
+  cacheDir: '../../node_modules/.vite/apps/brm',
   server: {
     port: 4202,
     host: 'localhost',
@@ -79,7 +79,7 @@ export default defineConfig({
   //  plugins: [ nxViteTsPaths() ],
   // },
   build: {
-    outDir: '../../dist/apps/brm-account-upgrade',
+    outDir: '../../dist/apps/brm',
     target: 'esnext',
     emptyOutDir: true,
     reportCompressedSize: true,
