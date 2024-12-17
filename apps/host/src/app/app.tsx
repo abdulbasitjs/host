@@ -9,7 +9,7 @@ type HostAppProps = {
 
 export function App({ eventBus }: HostAppProps) {
   const router = createBrowserRouter(routes, {
-    basename: eventBus ? HOST_FEDERATED_BASE_PATH : '/host/',
+    basename: eventBus ? HOST_FEDERATED_BASE_PATH : '/',
   });
 
   return (
