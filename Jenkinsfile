@@ -66,7 +66,7 @@ pipeline {
             steps {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-key']]) {
                     sh """
-                        aws cloudfront create-invalidation --distribution-id ${AWA_DISTRIBUTION_ID} --paths "/bo-account-upgrade/index.html"
+                        aws cloudfront create-invalidation --distribution-id ${AWS_DISTRIBUTION_ID} --paths "/bo-account-upgrade/index.html"
                     """
                 }
             }
