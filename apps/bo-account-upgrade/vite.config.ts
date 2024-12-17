@@ -7,7 +7,7 @@ import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
 export default defineConfig({
-  base: 'https://storage.googleapis.com/abduljs-bucket/bo-account-upgrade/',
+  base: 'https://d2rpeoqxjornyi.cloudfront.net/bo-account-upgrade/',
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/bo-account-upgrade',
   server: {
@@ -16,7 +16,7 @@ export default defineConfig({
   },
   preview: {
     port: 4301,
-    host: 'https://storage.googleapis.com/abduljs-bucket/bo-account-upgrade',
+    host: 'https://d2rpeoqxjornyi.cloudfront.net/bo-account-upgrade/',
   },
   css: {
     postcss: {
