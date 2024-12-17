@@ -6,6 +6,7 @@ import { nxCopyAssetsPlugin } from '@nx/vite/plugins/nx-copy-assets.plugin';
 import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
+// https://d2rpeoqxjornyi.cloudfront.net/bo-account-upgrade/
 export default defineConfig({
   base: 'https://d2rpeoqxjornyi.cloudfront.net/bo-account-upgrade/',
   root: __dirname,

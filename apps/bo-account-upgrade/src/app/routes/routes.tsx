@@ -1,5 +1,18 @@
-import { Outlet } from 'react-router-dom';
-import BOLevel2Primer from '../pages/level-2/primer/page';
+import { Outlet } from "react-router-dom";
+import BOLevel2Primer from "../pages/level-2/primer/page";
+
+// export const routes = [
+//   {
+//     path: "/",
+//     element: <div>Hello World</div>,
+//     children: [
+//       {
+//         path: "hello-world",
+//         element: <div>Hello World</div>,
+//       },
+//     ],
+//   },
+// ];
 
 export const routes = [
   {
