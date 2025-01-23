@@ -48,8 +48,8 @@ export default defineConfig({
         './styles': './src/styles.scss',
       },
       remotes: {
-        boApp: 'https://d2rpeoqxjornyi.cloudfront.net/bo/assets/remoteEntry.js',
-        brmApp: 'https://d2rpeoqxjornyi.cloudfront.net/brm/assets/remoteEntry.js',
+        boApp: 'http://localhost:4301/assets/remoteEntry.js',
+        brmApp: 'http://localhost:4302/assets/remoteEntry.js',
       },
       shared: {
         react: {
