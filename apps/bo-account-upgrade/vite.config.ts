@@ -6,6 +6,8 @@ import { nxCopyAssetsPlugin } from '@nx/vite/plugins/nx-copy-assets.plugin';
 import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
+console.log(window);
+
 export default defineConfig({
   base: '/bo/',
   root: __dirname,
