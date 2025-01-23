@@ -7,6 +7,7 @@ import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
 export default defineConfig({
+  base: '/bo/',
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/bo',
   server: {
@@ -56,13 +57,6 @@ export default defineConfig({
           import: true,
           shareScope: 'default',
           requiredVersion: false,
-        },
-        '@account-upgrade-ui/assets': {
-          import: true,
-          shareScope: 'default',
-          requiredVersion: false,
-          packagePath: '../../libs/assets/package.json',
-          generate: true,
         },
       },
     }),
