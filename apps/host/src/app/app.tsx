@@ -7,6 +7,8 @@ type HostAppProps = {
   eventBus?: EventBus;
 };
 
+console.log(import.meta.url);
+
 export function App({ eventBus }: HostAppProps) {
   const router = createBrowserRouter(routes, {
     basename: eventBus ? HOST_FEDERATED_BASE_PATH : '/',
