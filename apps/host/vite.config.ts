@@ -49,7 +49,7 @@ export default defineConfig({
       },
       remotes: {
         boApp: 'https://cdn-staging.moniepoint.com/account-upgrade-dev/bo-account-upgrade/assets/remoteEntry.js',
-        brmApp: 'http://localhost:4302/assets/remoteEntry.js',
+        brmApp: 'https://cdn-staging.moniepoint.com/account-upgrade-dev/brm-account-upgrade/assets/remoteEntry.js',
       },
       shared: {
         react: {
