@@ -35,7 +35,7 @@ pipeline {
         stage('Build BO App') {
             steps {
                 echo 'Building BO Account Upgrade app...'
-                sh 'pnpm run build:apps'  
+                sh 'rm -rf dist && pnpm run build:all'  
                 sh 'ls -la dist/apps'
             }
         }

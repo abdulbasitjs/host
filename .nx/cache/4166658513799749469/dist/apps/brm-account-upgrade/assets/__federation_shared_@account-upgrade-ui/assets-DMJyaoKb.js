@@ -1,1 +1,0 @@
-const s="@libs/assets",e="0.0.1",n="./index.js",t="./index.d.ts",o={".":{import:"./index.mjs",require:"./index.js"}},i={name:s,version:e,main:n,types:t,exports:o};export{i as default,o as exports,n as main,s as name,t as types,e as version};
