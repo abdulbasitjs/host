@@ -56,7 +56,10 @@ pipeline {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-key']]) {
                     sh """
                         export AWS_REGION=${AWS_REGION}
-                        aws s3 sync dist/apps s3://${S3_BUCKET_NAME} --delete
+                        aws s3 sync dist/apps s3://${S3_BUCKET_NAME} \
+                            --delete \
+                            --cache-control "no-cache, no-store, must-revalidate" \
+                            --expires "0"
                     """
                 }
             }
@@ -66,7 +69,7 @@ pipeline {
             steps {
                 withCredentials([[$class: 'AmazonWebServicesCredentialsBinding', credentialsId: 'aws-key']]) {
                     sh """
-                        aws cloudfront create-invalidation --distribution-id ${AWS_DISTRIBUTION_ID} --paths "/host/index.html"
+                        aws cloudfront create-invalidation --distribution-id ${AWS_DISTRIBUTION_ID} --paths "/*"
                     """
                 }
             }
