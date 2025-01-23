@@ -58,6 +58,13 @@ export default defineConfig({
           shareScope: 'default',
           requiredVersion: false,
         },
+        '@account-upgrade-ui/assets': {
+          import: true,
+          shareScope: 'default',
+          requiredVersion: false,
+          packagePath: '../../libs/assets/package.json',
+          generate: true,
+        },
       },
     }),
     nxViteTsPaths(),
