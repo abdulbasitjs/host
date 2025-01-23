@@ -810,6 +810,156 @@
         "implicitDependencies": []
       }
     },
+    "container": {
+      "name": "container",
+      "type": "lib",
+      "data": {
+        "root": "packages/container",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "packages/container",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.js",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "pnpm exec eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "container",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "marketing": {
+      "name": "marketing",
+      "type": "lib",
+      "data": {
+        "root": "packages/marketing",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "packages/marketing",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.js",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "pnpm exec eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "marketing",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
+    "auth": {
+      "name": "auth",
+      "type": "lib",
+      "data": {
+        "root": "packages/auth",
+        "targets": {
+          "lint": {
+            "cache": true,
+            "options": {
+              "cwd": "packages/auth",
+              "command": "eslint ."
+            },
+            "inputs": [
+              "default",
+              "^default",
+              "{workspaceRoot}/eslint.config.js",
+              "{workspaceRoot}/tools/eslint-rules/**/*",
+              {
+                "externalDependencies": [
+                  "eslint"
+                ]
+              }
+            ],
+            "outputs": [
+              "{options.outputFile}"
+            ],
+            "metadata": {
+              "technologies": [
+                "eslint"
+              ],
+              "description": "Runs ESLint on project",
+              "help": {
+                "command": "pnpm exec eslint --help",
+                "example": {
+                  "options": {
+                    "max-warnings": 0
+                  }
+                }
+              }
+            },
+            "executor": "nx:run-commands",
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "name": "auth",
+        "implicitDependencies": [],
+        "tags": []
+      }
+    },
     "host-e2e": {
       "name": "host-e2e",
       "type": "e2e",
@@ -17643,6 +17793,192 @@
         "source": "bo-account-upgrade",
         "target": "npm:autoprefixer",
         "type": "dynamic"
+      }
+    ],
+    "container": [
+      {
+        "source": "container",
+        "target": "npm:webpack",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:@babel/plugin-transform-runtime",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:@babel/preset-env",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:@babel/preset-react",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:babel-loader",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:css-loader",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:style-loader",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:webpack-dev-server",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "container",
+        "target": "npm:react-router-dom",
+        "type": "static"
+      }
+    ],
+    "marketing": [
+      {
+        "source": "marketing",
+        "target": "npm:webpack",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:@babel/plugin-transform-runtime",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:@babel/preset-env",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:@babel/preset-react",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:babel-loader",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:css-loader",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:style-loader",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:webpack-dev-server",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "marketing",
+        "target": "npm:react-router-dom",
+        "type": "static"
+      }
+    ],
+    "auth": [
+      {
+        "source": "auth",
+        "target": "npm:webpack",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:@babel/core",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:@babel/plugin-transform-runtime",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:@babel/preset-env",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:@babel/preset-react",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:babel-loader",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:css-loader",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:style-loader",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:webpack-dev-server",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:react",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:react-dom",
+        "type": "static"
+      },
+      {
+        "source": "auth",
+        "target": "npm:react-router-dom",
+        "type": "static"
       }
     ],
     "host-e2e": [
