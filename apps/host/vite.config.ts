@@ -7,7 +7,7 @@ import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
 export default defineConfig({
-  base: 'https://cdn-staging.moniepoint.com/account-upgrade-dev/host',
+  base: 'https://d2rpeoqxjornyi.cloudfront.net/host/',
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/host',
   server: {
