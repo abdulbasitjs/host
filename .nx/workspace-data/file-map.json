@@ -58,475 +58,303 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "coverage/libs/ui/clover.xml",
-        "hash": "8374787778964430348"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/block-navigation.js",
-        "hash": "1801078621803424330"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/clover.xml",
-        "hash": "1834886690607798586"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/account-progress/account-progress.tsx.html",
-        "hash": "9980144515576996109"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/account-details/account-details.tsx.html",
-        "hash": "14905448469938357164"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/upgrade-header/index.html",
-        "hash": "10348789104633918574"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/progress-bar/progress-bar.tsx.html",
-        "hash": "18242401170048740887"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/app/routes/routes.tsx.html",
-        "hash": "14187162402599109885"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/level-header/index.html",
-        "hash": "17029809409087944883"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/layouts/navbar/navbar.tsx.html",
-        "hash": "9738919754121700934"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/pages/level-2/primer/page.tsx.html",
-        "hash": "15225935341242353354"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/guards/protected-route.tsx.html",
-        "hash": "7599825467634157462"
-      },
-      {
-        "file": "project-words.txt",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "coverage/libs/ui/lcov-report/favicon.png",
-        "hash": "13402560043085226048"
-      },
-      {
-        "file": "coverage/libs/store/coverage-final.json",
-        "hash": "9524372139936089832"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov.info",
-        "hash": "14649991980028111100"
-      },
-      {
-        "file": "coverage/libs/modules/lcov-report/base.css",
-        "hash": "6204767174569381253"
+        "file": "coverage/libs/store/lcov-report/auth/user-auth.store.ts.html",
+        "hash": "3663904728890753473"
       },
       {
         "file": "coverage/apps/host/lcov-report/app/app.tsx.html",
         "hash": "7881654979953031283"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/components/account-info/index.html",
-        "hash": "10725873442260600485"
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/app.tsx.html",
+        "hash": "18323176411934645031"
       },
       {
-        "file": "coverage/apps/bo-account-upgrade/lcov.info",
-        "hash": "3671531731259143658"
-      },
-      {
-        "file": "coverage/libs/store/lcov-report/base.css",
-        "hash": "6204767174569381253"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/hooks/index.html",
-        "hash": "9705744972180652247"
-      },
-      {
-        "file": "coverage/libs/assets/lcov-report/sort-arrow-sprite.png",
-        "hash": "254831142482329146"
-      },
-      {
-        "file": "tests/utils/setups/setup-window-mocking.ts",
-        "hash": "5044461969884018589"
-      },
-      {
-        "file": "coverage/libs/assets/lcov-report/index.html",
-        "hash": "14181696267970539573"
-      },
-      {
-        "file": "__mocks__/boApp/Module.tsx",
-        "hash": "7425090471223378473"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/level-header/level-header.tsx.html",
-        "hash": "5433085764706762522"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/base.css",
-        "hash": "6204767174569381253"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/primer-screen/primer-screen.tsx.html",
-        "hash": "13384219976592930140"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/account-details/index.html",
-        "hash": "14426649087399823998"
-      },
-      {
-        "file": "coverage/libs/store/lcov-report/app-mode/index.html",
-        "hash": "13681874020835652011"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/pages/level-2/primer/page.tsx.html",
-        "hash": "8633677613307799452"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/progress-bar/index.html",
-        "hash": "10514409880904198669"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/info-banner/info-banner.tsx.html",
-        "hash": "10314573450919371377"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "7870362608836821141"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/coverage-final.json",
-        "hash": "2604619024395297503"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/pages/level-2/primer/index.html",
-        "hash": "4822696069815580449"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/account-limit/index.html",
-        "hash": "12848613467917935798"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "13988004173972072688"
-      },
-      {
-        "file": "tests/config/jest.setup.ts",
-        "hash": "13817095198398823388"
-      },
-      {
-        "file": "coverage/libs/store/clover.xml",
-        "hash": "16021280210681569379"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/primer-screen/index.html",
-        "hash": "15061646771798368378"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/sort-arrow-sprite.png",
-        "hash": "254831142482329146"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/routes/bo/index.html",
-        "hash": "14241749899007392105"
-      },
-      {
-        "file": "coverage/libs/store/lcov-report/favicon.png",
-        "hash": "13402560043085226048"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/index.html",
-        "hash": "2377538967106043872"
-      },
-      {
-        "file": "coverage/libs/store/lcov-report/sort-arrow-sprite.png",
-        "hash": "254831142482329146"
-      },
-      {
-        "file": "package.json",
-        "hash": "7844177976368811728"
-      },
-      {
-        "file": "coverage/libs/ui/lcov-report/ui.tsx.html",
-        "hash": "18072183760914149989"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/app/index.html",
-        "hash": "10952458517052592328"
-      },
-      {
-        "file": "coverage/apps/host/coverage-final.json",
-        "hash": "18022272981425302015"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/routes/bo/routes.ts.html",
-        "hash": "5859929437611458970"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/hooks/use-host-navigation.ts.html",
-        "hash": "16707585053031022404"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/feature-highlight/index.html",
-        "hash": "589410731832960290"
-      },
-      {
-        "file": "coverage/libs/ui/lcov-report/base.css",
-        "hash": "6204767174569381253"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/account-limit/account-limit.tsx.html",
-        "hash": "2106820021664934050"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/clover.xml",
-        "hash": "6979432292443472671"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "6970737529103767776"
-      },
-      {
-        "file": "Jenkinsfile",
-        "hash": "6098073035839468171"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/guards/index.html",
-        "hash": "5072449261834883391"
-      },
-      {
-        "file": "coverage/libs/modules/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
-      },
-      {
-        "file": "coverage/libs/ui/lcov-report/index.html",
-        "hash": "8282456192005797106"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/hooks/use-remote-navigation.ts.html",
-        "hash": "16420385446521626837"
-      },
-      {
-        "file": "coverage/libs/shared/clover.xml",
-        "hash": "8430909272497726180"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/feature-highlight/feature-highlight.tsx.html",
-        "hash": "14749528449344666977"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/layouts/layout.tsx.html",
-        "hash": "5063550167009542989"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "4865892159432375868"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/routes/brm/index.html",
-        "hash": "1870229420549504709"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
-      },
-      {
-        "file": "tests/utils/index.ts",
-        "hash": "7461552929093072482"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/app.tsx.html",
-        "hash": "4914868763347924583"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/info-banner/index.html",
-        "hash": "8627277349505158788"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/account-info/account-info.tsx.html",
-        "hash": "9749367660739424524"
-      },
-      {
-        "file": "coverage/libs/ui/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
-      },
-      {
-        "file": "coverage/apps/host/clover.xml",
-        "hash": "7872245871700080456"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/constants/index.html",
-        "hash": "1693086579958842865"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/sort-arrow-sprite.png",
-        "hash": "254831142482329146"
-      },
-      {
-        "file": "coverage/libs/assets/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
-      },
-      {
-        "file": "coverage/libs/modules/coverage-final.json",
-        "hash": "4974014192870334392"
-      },
-      {
-        "file": "coverage/libs/store/lcov.info",
-        "hash": "5839527764828793942"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/pages/level-2/primer/index.html",
-        "hash": "11646709949950404647"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/providers/index.html",
-        "hash": "9878497010515523780"
-      },
-      {
-        "file": "tests/setup.ts",
-        "hash": "4055606894390288348"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/base.css",
-        "hash": "6204767174569381253"
-      },
-      {
-        "file": ".npmrc",
-        "hash": "3367041698071511400"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/config/config.ts.html",
-        "hash": "17821472709752144706"
-      },
-      {
-        "file": "coverage/libs/assets/clover.xml",
-        "hash": "1536898577898365759"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/index.html",
-        "hash": "1956608399464860249"
-      },
-      {
-        "file": "coverage/libs/modules/lcov-report/sort-arrow-sprite.png",
-        "hash": "254831142482329146"
-      },
-      {
-        "file": "tests/utils/setups/index.ts",
-        "hash": "3683878595910407062"
-      },
-      {
-        "file": "coverage/libs/store/lcov-report/prettify.css",
-        "hash": "8163588510556258587"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/base.css",
-        "hash": "6204767174569381253"
-      },
-      {
-        "file": "coverage/libs/modules/clover.xml",
-        "hash": "17375074228000672165"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/favicon.png",
-        "hash": "13402560043085226048"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/routes/index.html",
-        "hash": "9194073255996987749"
-      },
-      {
-        "file": "README.md",
-        "hash": "11515977027528903198"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/config/index.html",
-        "hash": "16068316261029945097"
-      },
-      {
-        "file": "coverage/libs/ui/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/providers/event-bus/event-bus-provider.tsx.html",
-        "hash": "11785011162113261770"
-      },
-      {
-        "file": "coverage/libs/store/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
-      },
-      {
-        "file": "coverage/libs/modules/lcov-report/modules.tsx.html",
-        "hash": "3428352503716052845"
-      },
-      {
-        "file": "jenkins/Dockerfile",
-        "hash": "7051765274014930376"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/prettify.css",
-        "hash": "8163588510556258587"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/routes/index.html",
-        "hash": "17323054250712072666"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/prettify.css",
-        "hash": "8163588510556258587"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/providers/types.ts.html",
-        "hash": "13807127029824515089"
-      },
-      {
-        "file": "coverage/libs/modules/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
-      },
-      {
-        "file": "coverage/libs/ui/lcov-report/sort-arrow-sprite.png",
-        "hash": "254831142482329146"
+        "file": "coverage/libs/assets/lcov.info",
+        "hash": "3244421341483603138"
       },
       {
         "file": "__mocks__/brmApp/Module.tsx",
         "hash": "1157630038095425835"
       },
       {
-        "file": "coverage/libs/store/lcov-report/auth/index.html",
-        "hash": "10783087323247667140"
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/pages/level-2/primer/index.html",
+        "hash": "4822696069815580449"
       },
       {
-        "file": "coverage/libs/core/coverage-final.json",
-        "hash": "16700498662085257422"
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/routes/routes.tsx.html",
+        "hash": "14637065192939768246"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/constants/index.html",
+        "hash": "1693086579958842865"
+      },
+      {
+        "file": "tests/utils/mocks/window/local-storage.ts",
+        "hash": "11356330710895410947"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/prettify.css",
+        "hash": "8163588510556258587"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "3367041698071511400"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/routes/index.html",
+        "hash": "17323054250712072666"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/routes/brm/index.html",
+        "hash": "1870229420549504709"
+      },
+      {
+        "file": "coverage/libs/assets/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
+      },
+      {
+        "file": "tests/config/common.config.ts",
+        "hash": "12419180255790730593"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/index.html",
+        "hash": "2377538967106043872"
+      },
+      {
+        "file": "coverage/libs/assets/lcov-report/block-navigation.js",
+        "hash": "1801078621803424330"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/index.html",
+        "hash": "16449507846481747982"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/routes/routes.tsx.html",
+        "hash": "1714783163931521859"
+      },
+      {
+        "file": "coverage/apps/host/lcov.info",
+        "hash": "6764205498054059024"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/block-navigation.js",
+        "hash": "1801078621803424330"
+      },
+      {
+        "file": "cspell.json",
+        "hash": "17784281473955653839"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/base.css",
+        "hash": "6204767174569381253"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/index.html",
+        "hash": "16949613141889374027"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/app.tsx.html",
+        "hash": "4914868763347924583"
+      },
+      {
+        "file": "coverage/libs/store/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
+      },
+      {
+        "file": "coverage/libs/assets/lcov-report/base.css",
+        "hash": "6204767174569381253"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/config/config.ts.html",
+        "hash": "17821472709752144706"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/sort-arrow-sprite.png",
+        "hash": "254831142482329146"
+      },
+      {
+        "file": "coverage/libs/modules/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/base.css",
+        "hash": "6204767174569381253"
+      },
+      {
+        "file": "coverage/libs/core/clover.xml",
+        "hash": "3270046285716714792"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/index.html",
+        "hash": "4173741196039790215"
+      },
+      {
+        "file": "coverage/libs/assets/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
       },
       {
         "file": "coverage/libs/assets/coverage-final.json",
         "hash": "15753941481085060538"
       },
       {
-        "file": "coverage/libs/modules/lcov-report/prettify.css",
-        "hash": "8163588510556258587"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/constants/events.ts.html",
-        "hash": "16239284660810654370"
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
       },
       {
         "file": "tests/utils/mocks/window/index.ts",
         "hash": "15476719490503788969"
       },
       {
-        "file": "docker-compose.yml",
-        "hash": "6845467692920701856"
+        "file": "nx.json",
+        "hash": "2849204407135741847"
       },
       {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/favicon.png",
-        "hash": "13402560043085226048"
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/routes/index.html",
+        "hash": "9194073255996987749"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/favicon.png",
+        "file": "coverage/libs/shared/lcov-report/components/primer-screen/primer-screen.tsx.html",
+        "hash": "13384219976592930140"
+      },
+      {
+        "file": "coverage/libs/shared/lcov.info",
+        "hash": "7850142862519597292"
+      },
+      {
+        "file": "coverage/libs/store/lcov-report/auth/index.html",
+        "hash": "10783087323247667140"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/info-banner/info-banner.tsx.html",
+        "hash": "10314573450919371377"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/routes/bo/routes.ts.html",
+        "hash": "5859929437611458970"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/block-navigation.js",
+        "hash": "1801078621803424330"
+      },
+      {
+        "file": "coverage/libs/modules/lcov.info",
+        "hash": "11137450304966434336"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4865892159432375868"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/config/index.html",
+        "hash": "16068316261029945097"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/index.html",
+        "hash": "1416192186336268217"
+      },
+      {
+        "file": "coverage/libs/ui/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/account-info/account-info.tsx.html",
+        "hash": "9749367660739424524"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/layouts/navbar/navbar.tsx.html",
+        "hash": "9738919754121700934"
+      },
+      {
+        "file": "coverage/libs/modules/coverage-final.json",
+        "hash": "4974014192870334392"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/prettify.css",
+        "hash": "8163588510556258587"
+      },
+      {
+        "file": "coverage/libs/assets/lcov-report/index.html",
+        "hash": "14181696267970539573"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/providers/event-bus/use-event-bus-action.tsx.html",
+        "hash": "680718825977734131"
+      },
+      {
+        "file": "package.json",
+        "hash": "7844177976368811728"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/sort-arrow-sprite.png",
+        "hash": "254831142482329146"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/app/components/index.html",
+        "hash": "9027738718858909885"
+      },
+      {
+        "file": "coverage/libs/modules/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov.info",
+        "hash": "3671531731259143658"
+      },
+      {
+        "file": "jenkins/Dockerfile",
+        "hash": "7051765274014930376"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/clover.xml",
+        "hash": "6979432292443472671"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/routes/paths.ts.html",
+        "hash": "13612107197683289327"
+      },
+      {
+        "file": "tests/config/jest.base.ts",
+        "hash": "9209050378496145255"
+      },
+      {
+        "file": "coverage/libs/ui/coverage-final.json",
+        "hash": "17494909533410755373"
+      },
+      {
+        "file": "coverage/apps/host/clover.xml",
+        "hash": "7872245871700080456"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/account-details/index.html",
+        "hash": "14426649087399823998"
+      },
+      {
+        "file": "coverage/libs/modules/lcov-report/favicon.png",
         "hash": "13402560043085226048"
       },
       {
@@ -534,208 +362,128 @@
         "hash": "2599612416496562055"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/providers/auth/index.html",
-        "hash": "2273140018930432236"
+        "file": "coverage/libs/shared/lcov-report/components/level-header/index.html",
+        "hash": "17029809409087944883"
       },
       {
-        "file": "coverage/apps/host/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
+        "file": "coverage/apps/brm-account-upgrade/clover.xml",
+        "hash": "1834886690607798586"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/sort-arrow-sprite.png",
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/sort-arrow-sprite.png",
         "hash": "254831142482329146"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/block-navigation.js",
-        "hash": "1801078621803424330"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/routes/routes.tsx.html",
-        "hash": "14637065192939768246"
-      },
-      {
-        "file": "coverage/libs/assets/lcov-report/block-navigation.js",
-        "hash": "1801078621803424330"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/sort-arrow-sprite.png",
-        "hash": "254831142482329146"
-      },
-      {
-        "file": "coverage/libs/shared/lcov.info",
-        "hash": "7850142862519597292"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/block-navigation.js",
-        "hash": "1801078621803424330"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/providers/event-bus/index.html",
-        "hash": "15604786802177591827"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/app/components/mfe-app-wrapper.tsx.html",
-        "hash": "5482065376886177836"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/favicon.png",
-        "hash": "13402560043085226048"
-      },
-      {
-        "file": "coverage/libs/ui/coverage-final.json",
-        "hash": "17494909533410755373"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/prettify.css",
-        "hash": "8163588510556258587"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/favicon.png",
-        "hash": "13402560043085226048"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "11476995410179084084"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/coverage-final.json",
-        "hash": "8540442003238375013"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/providers/event-bus/use-event-bus-action.tsx.html",
-        "hash": "680718825977734131"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/upgrade-requirement/index.html",
-        "hash": "2149047824826505801"
-      },
-      {
-        "file": "coverage/libs/store/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/app/components/index.html",
-        "hash": "9027738718858909885"
-      },
-      {
-        "file": "coverage/libs/shared/coverage-final.json",
-        "hash": "14353699274879646653"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/upgrade-header/upgrade-header.tsx.html",
-        "hash": "13761647248108292783"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/constants/routes.ts.html",
-        "hash": "4385600436139997957"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
-      },
-      {
-        "file": "coverage/libs/assets/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/providers/auth/auth-provider.tsx.html",
-        "hash": "9990211361742494477"
-      },
-      {
-        "file": "coverage/libs/modules/lcov-report/index.html",
-        "hash": "13824613061582319957"
-      },
-      {
-        "file": "lint-staged.config.js",
-        "hash": "9815632916090267956"
-      },
-      {
-        "file": "coverage/libs/ui/lcov-report/prettify.css",
-        "hash": "8163588510556258587"
-      },
-      {
-        "file": "coverage/libs/core/lcov-report/routing/routes/index.html",
-        "hash": "8112888177246708296"
-      },
-      {
-        "file": "coverage/apps/host/lcov-report/block-navigation.js",
-        "hash": "1801078621803424330"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/prettify.css",
-        "hash": "8163588510556258587"
-      },
-      {
-        "file": "coverage/libs/modules/lcov-report/favicon.png",
-        "hash": "13402560043085226048"
+        "file": "coverage/apps/host/lcov-report/app/routes/routes.tsx.html",
+        "hash": "14187162402599109885"
       },
       {
         "file": "coverage/libs/assets/lcov-report/prettify.css",
         "hash": "8163588510556258587"
       },
       {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/app.tsx.html",
-        "hash": "18323176411934645031"
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/favicon.png",
+        "hash": "13402560043085226048"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/layouts/index.html",
-        "hash": "4743257675673216759"
+        "file": "tests/utils/mocks/index.ts",
+        "hash": "10463644837661885295"
       },
       {
-        "file": "coverage/libs/core/lcov-report/prettify.js",
-        "hash": "15884788582061322779"
+        "file": "coverage/libs/shared/lcov-report/components/level-header/level-header.tsx.html",
+        "hash": "5433085764706762522"
       },
       {
-        "file": "coverage/libs/ui/lcov-report/block-navigation.js",
-        "hash": "1801078621803424330"
+        "file": "__mocks__/@libs/core/index.tsx",
+        "hash": "8258867010803353833"
       },
       {
-        "file": "coverage/libs/core/lcov-report/routing/routes/paths.ts.html",
-        "hash": "13612107197683289327"
+        "file": "coverage/libs/store/lcov-report/base.css",
+        "hash": "6204767174569381253"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/index.html",
-        "hash": "4173741196039790215"
+        "file": "coverage/libs/modules/clover.xml",
+        "hash": "17375074228000672165"
       },
       {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/index.html",
-        "hash": "16449507846481747982"
+        "file": "coverage/libs/shared/lcov-report/components/info-banner/index.html",
+        "hash": "8627277349505158788"
       },
       {
-        "file": "tests/config/jest.base.ts",
-        "hash": "9209050378496145255"
+        "file": "Jenkinsfile",
+        "hash": "6098073035839468171"
       },
       {
-        "file": "coverage/apps/host/lcov-report/index.html",
-        "hash": "1416192186336268217"
+        "file": "coverage/libs/core/lcov-report/prettify.css",
+        "hash": "8163588510556258587"
       },
       {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/block-navigation.js",
-        "hash": "1801078621803424330"
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/pages/level-2/primer/index.html",
+        "hash": "11646709949950404647"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "file": "coverage/libs/ui/lcov.info",
+        "hash": "14227755550657559032"
       },
       {
-        "file": "jenkins/.dockerignore",
-        "hash": "2272989522438193523"
+        "file": "tests/utils/index.ts",
+        "hash": "7461552929093072482"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/prettify.css",
+        "hash": "8163588510556258587"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/feature-highlight/index.html",
+        "hash": "589410731832960290"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/providers/auth/auth-provider.tsx.html",
+        "hash": "9990211361742494477"
+      },
+      {
+        "file": "coverage/libs/ui/clover.xml",
+        "hash": "8374787778964430348"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/layouts/layout.tsx.html",
+        "hash": "5063550167009542989"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/hooks/use-remote-router.ts.html",
+        "hash": "2740041197379151921"
+      },
+      {
+        "file": "coverage/libs/shared/coverage-final.json",
+        "hash": "14353699274879646653"
+      },
+      {
+        "file": "tests/utils/setups/index.ts",
+        "hash": "3683878595910407062"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/upgrade-requirement/upgrade-requirement.tsx.html",
+        "hash": "13779381533076483868"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/favicon.png",
+        "hash": "13402560043085226048"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/primer-screen/index.html",
+        "hash": "15061646771798368378"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/layouts/navbar/index.html",
+        "hash": "2481585825192538037"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
+      },
+      {
+        "file": "project-words.txt",
+        "hash": "3244421341483603138"
       },
       {
         "file": "coverage/libs/store/lcov-report/block-navigation.js",
@@ -746,7 +494,63 @@
         "hash": "7182157567496453938"
       },
       {
-        "file": "coverage/libs/assets/lcov-report/base.css",
+        "file": "coverage/libs/store/lcov-report/app-mode/app-mode.store.ts.html",
+        "hash": "8591030832278099970"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/block-navigation.js",
+        "hash": "1801078621803424330"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/progress-bar/progress-bar.tsx.html",
+        "hash": "18242401170048740887"
+      },
+      {
+        "file": "coverage/libs/assets/lcov-report/sort-arrow-sprite.png",
+        "hash": "254831142482329146"
+      },
+      {
+        "file": "coverage/libs/ui/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/providers/event-bus/index.html",
+        "hash": "15604786802177591827"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/feature-highlight/feature-highlight.tsx.html",
+        "hash": "14749528449344666977"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/app/pages/level-2/primer/page.tsx.html",
+        "hash": "15225935341242353354"
+      },
+      {
+        "file": "lint-staged.config.js",
+        "hash": "9815632916090267956"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/app/index.html",
+        "hash": "10952458517052592328"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "11476995410179084084"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/sort-arrow-sprite.png",
+        "hash": "254831142482329146"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "13988004173972072688"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/upgrade-header/upgrade-header.tsx.html",
+        "hash": "13761647248108292783"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/base.css",
         "hash": "6204767174569381253"
       },
       {
@@ -754,273 +558,327 @@
         "hash": "2181658013652161265"
       },
       {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/routes/routes.tsx.html",
-        "hash": "1714783163931521859"
-      },
-      {
-        "file": "coverage/libs/core/clover.xml",
-        "hash": "3270046285716714792"
-      },
-      {
-        "file": "coverage/libs/store/lcov-report/auth/user-auth.store.ts.html",
-        "hash": "3663904728890753473"
-      },
-      {
-        "file": "coverage/libs/ui/lcov.info",
-        "hash": "14227755550657559032"
-      },
-      {
-        "file": "coverage/apps/bo-account-upgrade/lcov-report/index.html",
-        "hash": "16949613141889374027"
-      },
-      {
-        "file": "coverage/libs/assets/lcov-report/favicon.png",
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/favicon.png",
         "hash": "13402560043085226048"
       },
       {
-        "file": "coverage/libs/modules/lcov-report/block-navigation.js",
-        "hash": "1801078621803424330"
+        "file": "tests/config/jest.setup.ts",
+        "hash": "13817095198398823388"
       },
       {
-        "file": "coverage/libs/modules/lcov.info",
-        "hash": "11137450304966434336"
+        "file": "tests/setup.ts",
+        "hash": "4055606894390288348"
       },
       {
-        "file": "__mocks__/@libs/core/index.tsx",
-        "hash": "8258867010803353833"
+        "file": "coverage/libs/shared/lcov-report/components/account-progress/account-progress.tsx.html",
+        "hash": "9980144515576996109"
       },
       {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/index.html",
-        "hash": "6551685202130325282"
+        "file": "coverage/libs/shared/lcov-report/providers/event-bus/event-bus-provider.tsx.html",
+        "hash": "11785011162113261770"
       },
       {
-        "file": "coverage/apps/host/lcov.info",
-        "hash": "6764205498054059024"
+        "file": "coverage/libs/core/lcov-report/index.html",
+        "hash": "1956608399464860249"
       },
       {
-        "file": "coverage/libs/core/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
+        "file": "coverage/libs/ui/lcov-report/index.html",
+        "hash": "8282456192005797106"
       },
       {
-        "file": "coverage/libs/core/lcov-report/routing/hooks/use-remote-router.ts.html",
-        "hash": "2740041197379151921"
+        "file": "coverage/libs/shared/lcov-report/components/upgrade-requirement/index.html",
+        "hash": "2149047824826505801"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/base.css",
-        "hash": "6204767174569381253"
+        "file": "coverage/apps/brm-account-upgrade/lcov.info",
+        "hash": "14649991980028111100"
       },
       {
-        "file": "coverage/libs/core/lcov-report/prettify.css",
-        "hash": "8163588510556258587"
+        "file": "__mocks__/boApp/Module.tsx",
+        "hash": "7425090471223378473"
       },
       {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/sorter.js",
-        "hash": "17053119163225536857"
+        "file": "coverage/libs/shared/lcov-report/components/upgrade-header/index.html",
+        "hash": "10348789104633918574"
       },
       {
-        "file": "coverage/libs/shared/lcov-report/components/account-progress/index.html",
-        "hash": "14516438502965005878"
-      },
-      {
-        "file": "coverage/libs/assets/lcov.info",
-        "hash": "3244421341483603138"
-      },
-      {
-        "file": "tests/config/common.config.ts",
-        "hash": "12419180255790730593"
-      },
-      {
-        "file": "tests/utils/mocks/window/local-storage.ts",
-        "hash": "11356330710895410947"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/layouts/navbar/index.html",
-        "hash": "2481585825192538037"
-      },
-      {
-        "file": "coverage/libs/shared/lcov-report/components/upgrade-requirement/upgrade-requirement.tsx.html",
-        "hash": "13779381533076483868"
-      },
-      {
-        "file": "tests/utils/mocks/index.ts",
-        "hash": "10463644837661885295"
-      },
-      {
-        "file": "coverage/apps/brm-account-upgrade/lcov-report/sort-arrow-sprite.png",
+        "file": "coverage/libs/modules/lcov-report/sort-arrow-sprite.png",
         "hash": "254831142482329146"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/account-limit/account-limit.tsx.html",
+        "hash": "2106820021664934050"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
       },
       {
         "file": "eslint.config.js",
         "hash": "1567746717500099118"
       },
       {
-        "file": "coverage/libs/store/lcov-report/index.html",
-        "hash": "9678655983843759633"
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/app/pages/level-2/primer/page.tsx.html",
+        "hash": "8633677613307799452"
       },
       {
-        "file": "cspell.json",
-        "hash": "17784281473955653839"
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/block-navigation.js",
+        "hash": "1801078621803424330"
       },
       {
-        "file": "coverage/libs/store/lcov-report/app-mode/app-mode.store.ts.html",
-        "hash": "8591030832278099970"
+        "file": "coverage/libs/shared/lcov-report/components/progress-bar/index.html",
+        "hash": "10514409880904198669"
       },
       {
         "file": "coverage/libs/core/lcov-report/routing/routes/brm/routes.ts.html",
         "hash": "10852001516421401283"
       },
       {
+        "file": "coverage/libs/store/lcov-report/sort-arrow-sprite.png",
+        "hash": "254831142482329146"
+      },
+      {
+        "file": "coverage/libs/store/lcov.info",
+        "hash": "5839527764828793942"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/hooks/use-host-navigation.ts.html",
+        "hash": "16707585053031022404"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/providers/auth/index.html",
+        "hash": "2273140018930432236"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/layouts/index.html",
+        "hash": "4743257675673216759"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/constants/routes.ts.html",
+        "hash": "4385600436139997957"
+      },
+      {
+        "file": "coverage/libs/store/clover.xml",
+        "hash": "16021280210681569379"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
+      },
+      {
+        "file": "jenkins/.dockerignore",
+        "hash": "2272989522438193523"
+      },
+      {
+        "file": "coverage/libs/ui/lcov-report/block-navigation.js",
+        "hash": "1801078621803424330"
+      },
+      {
+        "file": "coverage/libs/core/coverage-final.json",
+        "hash": "16700498662085257422"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/sort-arrow-sprite.png",
+        "hash": "254831142482329146"
+      },
+      {
+        "file": "coverage/libs/modules/lcov-report/modules.tsx.html",
+        "hash": "3428352503716052845"
+      },
+      {
+        "file": "coverage/libs/ui/lcov-report/favicon.png",
+        "hash": "13402560043085226048"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/favicon.png",
+        "hash": "13402560043085226048"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/account-info/index.html",
+        "hash": "10725873442260600485"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "6970737529103767776"
+      },
+      {
+        "file": "coverage/libs/assets/lcov-report/favicon.png",
+        "hash": "13402560043085226048"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/hooks/use-remote-navigation.ts.html",
+        "hash": "16420385446521626837"
+      },
+      {
+        "file": "coverage/libs/shared/clover.xml",
+        "hash": "8430909272497726180"
+      },
+      {
+        "file": "tests/utils/setups/setup-window-mocking.ts",
+        "hash": "5044461969884018589"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/constants/events.ts.html",
+        "hash": "16239284660810654370"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/lcov-report/prettify.css",
+        "hash": "8163588510556258587"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/providers/types.ts.html",
+        "hash": "13807127029824515089"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/lcov-report/index.html",
+        "hash": "6551685202130325282"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/guards/protected-route.tsx.html",
+        "hash": "7599825467634157462"
+      },
+      {
+        "file": "coverage/apps/brm-account-upgrade/coverage-final.json",
+        "hash": "2604619024395297503"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/block-navigation.js",
+        "hash": "1801078621803424330"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/sorter.js",
+        "hash": "17053119163225536857"
+      },
+      {
+        "file": "coverage/libs/ui/lcov-report/sort-arrow-sprite.png",
+        "hash": "254831142482329146"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/account-details/account-details.tsx.html",
+        "hash": "14905448469938357164"
+      },
+      {
+        "file": "coverage/apps/bo-account-upgrade/coverage-final.json",
+        "hash": "8540442003238375013"
+      },
+      {
+        "file": "coverage/libs/store/lcov-report/favicon.png",
+        "hash": "13402560043085226048"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/favicon.png",
+        "hash": "13402560043085226048"
+      },
+      {
+        "file": "coverage/libs/store/coverage-final.json",
+        "hash": "9524372139936089832"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/guards/index.html",
+        "hash": "5072449261834883391"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/providers/index.html",
+        "hash": "9878497010515523780"
+      },
+      {
+        "file": "coverage/libs/store/lcov-report/prettify.css",
+        "hash": "8163588510556258587"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
+      },
+      {
+        "file": "coverage/libs/ui/lcov-report/base.css",
+        "hash": "6204767174569381253"
+      },
+      {
+        "file": "coverage/libs/modules/lcov-report/block-navigation.js",
+        "hash": "1801078621803424330"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/hooks/index.html",
+        "hash": "9705744972180652247"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/base.css",
+        "hash": "6204767174569381253"
+      },
+      {
+        "file": "coverage/libs/modules/lcov-report/prettify.css",
+        "hash": "8163588510556258587"
+      },
+      {
+        "file": "coverage/libs/ui/lcov-report/prettify.css",
+        "hash": "8163588510556258587"
+      },
+      {
+        "file": "coverage/libs/modules/lcov-report/base.css",
+        "hash": "6204767174569381253"
+      },
+      {
+        "file": "coverage/libs/store/lcov-report/index.html",
+        "hash": "9678655983843759633"
+      },
+      {
+        "file": "docker-compose.yml",
+        "hash": "6845467692920701856"
+      },
+      {
+        "file": "README.md",
+        "hash": "11515977027528903198"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/account-limit/index.html",
+        "hash": "12848613467917935798"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/routes/index.html",
+        "hash": "8112888177246708296"
+      },
+      {
+        "file": "coverage/libs/shared/lcov-report/components/account-progress/index.html",
+        "hash": "14516438502965005878"
+      },
+      {
+        "file": "coverage/libs/assets/clover.xml",
+        "hash": "1536898577898365759"
+      },
+      {
+        "file": "coverage/libs/store/lcov-report/prettify.js",
+        "hash": "15884788582061322779"
+      },
+      {
+        "file": "coverage/libs/modules/lcov-report/index.html",
+        "hash": "13824613061582319957"
+      },
+      {
+        "file": "coverage/libs/core/lcov-report/routing/routes/bo/index.html",
+        "hash": "14241749899007392105"
+      },
+      {
+        "file": "coverage/apps/host/coverage-final.json",
+        "hash": "18022272981425302015"
+      },
+      {
         "file": "coverage/libs/core/lcov-report/base.css",
         "hash": "6204767174569381253"
       },
       {
-        "file": "nx.json",
-        "hash": "2849204407135741847"
+        "file": "coverage/libs/ui/lcov-report/ui.tsx.html",
+        "hash": "18072183760914149989"
+      },
+      {
+        "file": "coverage/libs/store/lcov-report/app-mode/index.html",
+        "hash": "13681874020835652011"
+      },
+      {
+        "file": "coverage/apps/host/lcov-report/app/components/mfe-app-wrapper.tsx.html",
+        "hash": "5482065376886177836"
       }
     ],
     "projectFileMap": {
-      "host": [
-        {
-          "file": "apps/host/eslint.config.js",
-          "hash": "18206053935892145363",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/host/index.html",
-          "hash": "6542866864514562007"
-        },
-        {
-          "file": "apps/host/jest.config.ts",
-          "hash": "15043221101675429660"
-        },
-        {
-          "file": "apps/host/postcss.config.js",
-          "hash": "2759402739052110475"
-        },
-        {
-          "file": "apps/host/project.json",
-          "hash": "8048264243260628247"
-        },
-        {
-          "file": "apps/host/public/moniepoint.svg",
-          "hash": "13831450454176140861"
-        },
-        {
-          "file": "apps/host/src/app/app.module.scss",
-          "hash": "8887387885984320532"
-        },
-        {
-          "file": "apps/host/src/app/app.spec.tsx",
-          "hash": "10451957677710410748",
-          "deps": [
-            "npm:@testing-library/react",
-            "npm:react-router-dom",
-            "shared",
-            "core"
-          ]
-        },
-        {
-          "file": "apps/host/src/app/app.tsx",
-          "hash": "2998732031747492950",
-          "deps": [
-            "npm:react-router-dom",
-            "core",
-            "shared"
-          ]
-        },
-        {
-          "file": "apps/host/src/app/components/mfe-app-wrapper.tsx",
-          "hash": "3972797054882337160",
-          "deps": [
-            "core",
-            "npm:react",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "apps/host/src/app/routes/index.ts",
-          "hash": "11730198817445143901"
-        },
-        {
-          "file": "apps/host/src/app/routes/routes.spec.tsx",
-          "hash": "10473815837192496221",
-          "deps": [
-            "npm:@testing-library/react",
-            "core",
-            "npm:react-router-dom",
-            "npm:react"
-          ]
-        },
-        {
-          "file": "apps/host/src/app/routes/routes.tsx",
-          "hash": "18219535615009586560",
-          "deps": [
-            "core",
-            "npm:react",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "apps/host/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/host/src/main.tsx",
-          "hash": "14012718221009712789",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/host/src/styles.scss",
-          "hash": "11827223589103615267"
-        },
-        {
-          "file": "apps/host/src/types/remotes.d.ts",
-          "hash": "9667977975430690973"
-        },
-        {
-          "file": "apps/host/tailwind.config.js",
-          "hash": "3734731730687097299",
-          "deps": [
-            "npm:@kamona/tailwind-plugin",
-            "npm:@nx/react"
-          ]
-        },
-        {
-          "file": "apps/host/tsconfig.app.json",
-          "hash": "14768608741124992156"
-        },
-        {
-          "file": "apps/host/tsconfig.json",
-          "hash": "11296020271959508539"
-        },
-        {
-          "file": "apps/host/tsconfig.spec.json",
-          "hash": "13517670145554637735"
-        },
-        {
-          "file": "apps/host/vite.config.ts",
-          "hash": "14118765723749724714",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite",
-            "npm:@originjs/vite-plugin-federation",
-            [
-              "npm:tailwindcss",
-              "dynamic"
-            ],
-            [
-              "npm:autoprefixer",
-              "dynamic"
-            ]
-          ]
-        }
-      ],
       "store": [
         {
           "file": "libs/store/.babelrc",
@@ -1150,78 +1008,122 @@
           "hash": "13413400511057489941"
         }
       ],
-      "assets": [
+      "brm-account-upgrade": [
         {
-          "file": "libs/assets/.babelrc",
-          "hash": "2946678488919325452"
-        },
-        {
-          "file": "libs/assets/README.md",
-          "hash": "13620951887258289441"
-        },
-        {
-          "file": "libs/assets/eslint.config.js",
+          "file": "apps/brm-account-upgrade/eslint.config.js",
           "hash": "18206053935892145363",
           "deps": [
             "npm:@nx/eslint-plugin"
           ]
         },
         {
-          "file": "libs/assets/jest.config.ts",
-          "hash": "15345068125467638060"
+          "file": "apps/brm-account-upgrade/index.html",
+          "hash": "16889203720860913034"
         },
         {
-          "file": "libs/assets/package.json",
-          "hash": "507642575821345518"
+          "file": "apps/brm-account-upgrade/jest.config.ts",
+          "hash": "9212559222076154373"
         },
         {
-          "file": "libs/assets/project.json",
-          "hash": "5376048421935970380"
+          "file": "apps/brm-account-upgrade/postcss.config.js",
+          "hash": "2759402739052110475"
         },
         {
-          "file": "libs/assets/src/index.ts",
-          "hash": "14428353282588746736"
+          "file": "apps/brm-account-upgrade/project.json",
+          "hash": "9184729224437412552"
         },
         {
-          "file": "libs/assets/src/lib/icons/kyc-lvl2-icon-v2.svg",
-          "hash": "5652727865977396057"
+          "file": "apps/brm-account-upgrade/public/moniepoint.svg",
+          "hash": "13831450454176140861"
         },
         {
-          "file": "libs/assets/src/lib/icons/kyc-rocket.svg",
-          "hash": "1544360655645293152"
+          "file": "apps/brm-account-upgrade/src/app/app.spec.tsx",
+          "hash": "7763806930929410151",
+          "deps": [
+            "npm:@testing-library/react",
+            "core",
+            "npm:react-router-dom"
+          ]
         },
         {
-          "file": "libs/assets/src/lib/icons/onboarding-v2-pattern.svg",
-          "hash": "485917201659666657"
+          "file": "apps/brm-account-upgrade/src/app/app.tsx",
+          "hash": "11257629850634487054",
+          "deps": [
+            "npm:react-router-dom",
+            "core"
+          ]
         },
         {
-          "file": "libs/assets/src/lib/images/kyc-limit-v3.png",
-          "hash": "11703356293081281169"
+          "file": "apps/brm-account-upgrade/src/app/routes/index.ts",
+          "hash": "11730198817445143901"
         },
         {
-          "file": "libs/assets/src/lib/index.ts",
-          "hash": "1384754223391427295"
+          "file": "apps/brm-account-upgrade/src/app/routes/routes.spec.tsx",
+          "hash": "16443273392371712305",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
         },
         {
-          "file": "libs/assets/tsconfig.json",
-          "hash": "10374583890390798648"
+          "file": "apps/brm-account-upgrade/src/app/routes/routes.tsx",
+          "hash": "11621519565731907971",
+          "deps": [
+            "npm:react-router-dom"
+          ]
         },
         {
-          "file": "libs/assets/tsconfig.lib.json",
-          "hash": "6750625921117520019"
+          "file": "apps/brm-account-upgrade/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
         },
         {
-          "file": "libs/assets/tsconfig.spec.json",
-          "hash": "1639484752449595699"
+          "file": "apps/brm-account-upgrade/src/main.tsx",
+          "hash": "2476887656571095242",
+          "deps": [
+            "npm:react",
+            "npm:react-dom",
+            "store"
+          ]
         },
         {
-          "file": "libs/assets/vite.config.ts",
-          "hash": "10992100525374670253",
+          "file": "apps/brm-account-upgrade/src/styles.scss",
+          "hash": "2913406151604544656"
+        },
+        {
+          "file": "apps/brm-account-upgrade/tailwind.config.js",
+          "hash": "3734731730687097299",
+          "deps": [
+            "npm:@kamona/tailwind-plugin",
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/brm-account-upgrade/tsconfig.app.json",
+          "hash": "14768608741124992156"
+        },
+        {
+          "file": "apps/brm-account-upgrade/tsconfig.json",
+          "hash": "10005506710784232646"
+        },
+        {
+          "file": "apps/brm-account-upgrade/tsconfig.spec.json",
+          "hash": "13517670145554637735"
+        },
+        {
+          "file": "apps/brm-account-upgrade/vite.config.ts",
+          "hash": "1676995883058883224",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react",
-            "npm:vite-plugin-dts",
-            "npm:@nx/vite"
+            "npm:@nx/vite",
+            "npm:@originjs/vite-plugin-federation",
+            [
+              "npm:tailwindcss",
+              "dynamic"
+            ],
+            [
+              "npm:autoprefixer",
+              "dynamic"
+            ]
           ]
         }
       ],
@@ -1612,37 +1514,37 @@
           ]
         }
       ],
-      "brm-account-upgrade": [
+      "bo-account-upgrade": [
         {
-          "file": "apps/brm-account-upgrade/eslint.config.js",
+          "file": "apps/bo-account-upgrade/eslint.config.js",
           "hash": "18206053935892145363",
           "deps": [
             "npm:@nx/eslint-plugin"
           ]
         },
         {
-          "file": "apps/brm-account-upgrade/index.html",
-          "hash": "16889203720860913034"
+          "file": "apps/bo-account-upgrade/index.html",
+          "hash": "14073300661398501491"
         },
         {
-          "file": "apps/brm-account-upgrade/jest.config.ts",
-          "hash": "9212559222076154373"
+          "file": "apps/bo-account-upgrade/jest.config.ts",
+          "hash": "1977374300478817034"
         },
         {
-          "file": "apps/brm-account-upgrade/postcss.config.js",
+          "file": "apps/bo-account-upgrade/postcss.config.js",
           "hash": "2759402739052110475"
         },
         {
-          "file": "apps/brm-account-upgrade/project.json",
-          "hash": "9184729224437412552"
+          "file": "apps/bo-account-upgrade/project.json",
+          "hash": "6972993948536411141"
         },
         {
-          "file": "apps/brm-account-upgrade/public/moniepoint.svg",
+          "file": "apps/bo-account-upgrade/public/moniepoint.svg",
           "hash": "13831450454176140861"
         },
         {
-          "file": "apps/brm-account-upgrade/src/app/app.spec.tsx",
-          "hash": "7763806930929410151",
+          "file": "apps/bo-account-upgrade/src/app/app.spec.tsx",
+          "hash": "15153480058052510948",
           "deps": [
             "npm:@testing-library/react",
             "core",
@@ -1650,37 +1552,44 @@
           ]
         },
         {
-          "file": "apps/brm-account-upgrade/src/app/app.tsx",
-          "hash": "11257629850634487054",
+          "file": "apps/bo-account-upgrade/src/app/app.tsx",
+          "hash": "5984870146377916649",
           "deps": [
             "npm:react-router-dom",
             "core"
           ]
         },
         {
-          "file": "apps/brm-account-upgrade/src/app/routes/index.ts",
-          "hash": "11730198817445143901"
-        },
-        {
-          "file": "apps/brm-account-upgrade/src/app/routes/routes.spec.tsx",
-          "hash": "16443273392371712305",
+          "file": "apps/bo-account-upgrade/src/app/pages/level-2/primer/page.spec.tsx",
+          "hash": "327644491652948535",
           "deps": [
             "npm:@testing-library/react"
           ]
         },
         {
-          "file": "apps/brm-account-upgrade/src/app/routes/routes.tsx",
-          "hash": "11621519565731907971",
+          "file": "apps/bo-account-upgrade/src/app/pages/level-2/primer/page.tsx",
+          "hash": "12976933391346942164",
+          "deps": [
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/bo-account-upgrade/src/app/routes/index.ts",
+          "hash": "11730198817445143901"
+        },
+        {
+          "file": "apps/bo-account-upgrade/src/app/routes/routes.tsx",
+          "hash": "11081946602165369600",
           "deps": [
             "npm:react-router-dom"
           ]
         },
         {
-          "file": "apps/brm-account-upgrade/src/assets/.gitkeep",
+          "file": "apps/bo-account-upgrade/src/assets/.gitkeep",
           "hash": "3244421341483603138"
         },
         {
-          "file": "apps/brm-account-upgrade/src/main.tsx",
+          "file": "apps/bo-account-upgrade/src/main.tsx",
           "hash": "2476887656571095242",
           "deps": [
             "npm:react",
@@ -1689,11 +1598,11 @@
           ]
         },
         {
-          "file": "apps/brm-account-upgrade/src/styles.scss",
+          "file": "apps/bo-account-upgrade/src/styles.scss",
           "hash": "2913406151604544656"
         },
         {
-          "file": "apps/brm-account-upgrade/tailwind.config.js",
+          "file": "apps/bo-account-upgrade/tailwind.config.js",
           "hash": "3734731730687097299",
           "deps": [
             "npm:@kamona/tailwind-plugin",
@@ -1701,20 +1610,20 @@
           ]
         },
         {
-          "file": "apps/brm-account-upgrade/tsconfig.app.json",
+          "file": "apps/bo-account-upgrade/tsconfig.app.json",
           "hash": "14768608741124992156"
         },
         {
-          "file": "apps/brm-account-upgrade/tsconfig.json",
+          "file": "apps/bo-account-upgrade/tsconfig.json",
           "hash": "10005506710784232646"
         },
         {
-          "file": "apps/brm-account-upgrade/tsconfig.spec.json",
+          "file": "apps/bo-account-upgrade/tsconfig.spec.json",
           "hash": "13517670145554637735"
         },
         {
-          "file": "apps/brm-account-upgrade/vite.config.ts",
-          "hash": "17251848610158875984",
+          "file": "apps/bo-account-upgrade/vite.config.ts",
+          "hash": "106783706048151671",
           "deps": [
             "npm:vite",
             "npm:@vitejs/plugin-react",
@@ -1729,39 +1638,6 @@
               "dynamic"
             ]
           ]
-        }
-      ],
-      "bo-account-upgrade-e2e": [
-        {
-          "file": "apps/bo-account-upgrade-e2e/eslint.config.js",
-          "hash": "4703616457710285801",
-          "deps": [
-            "npm:eslint-plugin-playwright"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade-e2e/playwright.config.ts",
-          "hash": "13400371785733403076",
-          "deps": [
-            "npm:@playwright/test",
-            "npm:@nx/playwright",
-            "npm:@nx/devkit"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade-e2e/project.json",
-          "hash": "7493631036663388881"
-        },
-        {
-          "file": "apps/bo-account-upgrade-e2e/src/example.spec.ts",
-          "hash": "16019101014373124625",
-          "deps": [
-            "npm:@playwright/test"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade-e2e/tsconfig.json",
-          "hash": "13413400511057489941"
         }
       ],
       "core": [
@@ -1978,6 +1854,326 @@
           ]
         }
       ],
+      "ui": [
+        {
+          "file": "libs/ui/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/ui/README.md",
+          "hash": "3098996868279451883"
+        },
+        {
+          "file": "libs/ui/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/ui/jest.config.ts",
+          "hash": "13474916275127748991"
+        },
+        {
+          "file": "libs/ui/package.json",
+          "hash": "17123633284619242093"
+        },
+        {
+          "file": "libs/ui/project.json",
+          "hash": "12196302964876651695"
+        },
+        {
+          "file": "libs/ui/src/index.ts",
+          "hash": "5977848407072712979"
+        },
+        {
+          "file": "libs/ui/src/lib/ui.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/ui/src/lib/ui.spec.tsx",
+          "hash": "7298740781061202243",
+          "deps": [
+            "npm:@testing-library/react"
+          ]
+        },
+        {
+          "file": "libs/ui/src/lib/ui.tsx",
+          "hash": "4491339686164950377"
+        },
+        {
+          "file": "libs/ui/tsconfig.json",
+          "hash": "12937361759397702261"
+        },
+        {
+          "file": "libs/ui/tsconfig.lib.json",
+          "hash": "10514678202960682525"
+        },
+        {
+          "file": "libs/ui/tsconfig.spec.json",
+          "hash": "1639484752449595699"
+        },
+        {
+          "file": "libs/ui/vite.config.ts",
+          "hash": "17117486665434669404",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
+      "bo-account-upgrade-e2e": [
+        {
+          "file": "apps/bo-account-upgrade-e2e/eslint.config.js",
+          "hash": "4703616457710285801",
+          "deps": [
+            "npm:eslint-plugin-playwright"
+          ]
+        },
+        {
+          "file": "apps/bo-account-upgrade-e2e/playwright.config.ts",
+          "hash": "13400371785733403076",
+          "deps": [
+            "npm:@playwright/test",
+            "npm:@nx/playwright",
+            "npm:@nx/devkit"
+          ]
+        },
+        {
+          "file": "apps/bo-account-upgrade-e2e/project.json",
+          "hash": "7493631036663388881"
+        },
+        {
+          "file": "apps/bo-account-upgrade-e2e/src/example.spec.ts",
+          "hash": "16019101014373124625",
+          "deps": [
+            "npm:@playwright/test"
+          ]
+        },
+        {
+          "file": "apps/bo-account-upgrade-e2e/tsconfig.json",
+          "hash": "13413400511057489941"
+        }
+      ],
+      "host": [
+        {
+          "file": "apps/host/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "apps/host/index.html",
+          "hash": "6542866864514562007"
+        },
+        {
+          "file": "apps/host/jest.config.ts",
+          "hash": "15043221101675429660"
+        },
+        {
+          "file": "apps/host/postcss.config.js",
+          "hash": "2759402739052110475"
+        },
+        {
+          "file": "apps/host/project.json",
+          "hash": "8048264243260628247"
+        },
+        {
+          "file": "apps/host/public/moniepoint.svg",
+          "hash": "13831450454176140861"
+        },
+        {
+          "file": "apps/host/src/app/app.module.scss",
+          "hash": "8887387885984320532"
+        },
+        {
+          "file": "apps/host/src/app/app.spec.tsx",
+          "hash": "10451957677710410748",
+          "deps": [
+            "npm:@testing-library/react",
+            "npm:react-router-dom",
+            "shared",
+            "core"
+          ]
+        },
+        {
+          "file": "apps/host/src/app/app.tsx",
+          "hash": "2998732031747492950",
+          "deps": [
+            "npm:react-router-dom",
+            "core",
+            "shared"
+          ]
+        },
+        {
+          "file": "apps/host/src/app/components/mfe-app-wrapper.tsx",
+          "hash": "3972797054882337160",
+          "deps": [
+            "core",
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/host/src/app/routes/index.ts",
+          "hash": "11730198817445143901"
+        },
+        {
+          "file": "apps/host/src/app/routes/routes.spec.tsx",
+          "hash": "10473815837192496221",
+          "deps": [
+            "npm:@testing-library/react",
+            "core",
+            "npm:react-router-dom",
+            "npm:react"
+          ]
+        },
+        {
+          "file": "apps/host/src/app/routes/routes.tsx",
+          "hash": "18219535615009586560",
+          "deps": [
+            "core",
+            "npm:react",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "apps/host/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/host/src/main.tsx",
+          "hash": "14012718221009712789",
+          "deps": [
+            "npm:react",
+            "npm:react-dom"
+          ]
+        },
+        {
+          "file": "apps/host/src/styles.scss",
+          "hash": "11827223589103615267"
+        },
+        {
+          "file": "apps/host/src/types/remotes.d.ts",
+          "hash": "9667977975430690973"
+        },
+        {
+          "file": "apps/host/tailwind.config.js",
+          "hash": "3734731730687097299",
+          "deps": [
+            "npm:@kamona/tailwind-plugin",
+            "npm:@nx/react"
+          ]
+        },
+        {
+          "file": "apps/host/tsconfig.app.json",
+          "hash": "14768608741124992156"
+        },
+        {
+          "file": "apps/host/tsconfig.json",
+          "hash": "11296020271959508539"
+        },
+        {
+          "file": "apps/host/tsconfig.spec.json",
+          "hash": "13517670145554637735"
+        },
+        {
+          "file": "apps/host/vite.config.ts",
+          "hash": "14484383075620591333",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:@nx/vite",
+            "npm:@originjs/vite-plugin-federation",
+            [
+              "npm:tailwindcss",
+              "dynamic"
+            ],
+            [
+              "npm:autoprefixer",
+              "dynamic"
+            ]
+          ]
+        }
+      ],
+      "assets": [
+        {
+          "file": "libs/assets/.babelrc",
+          "hash": "2946678488919325452"
+        },
+        {
+          "file": "libs/assets/README.md",
+          "hash": "13620951887258289441"
+        },
+        {
+          "file": "libs/assets/eslint.config.js",
+          "hash": "18206053935892145363",
+          "deps": [
+            "npm:@nx/eslint-plugin"
+          ]
+        },
+        {
+          "file": "libs/assets/jest.config.ts",
+          "hash": "15345068125467638060"
+        },
+        {
+          "file": "libs/assets/package.json",
+          "hash": "507642575821345518"
+        },
+        {
+          "file": "libs/assets/project.json",
+          "hash": "5376048421935970380"
+        },
+        {
+          "file": "libs/assets/src/index.ts",
+          "hash": "14428353282588746736"
+        },
+        {
+          "file": "libs/assets/src/lib/icons/kyc-lvl2-icon-v2.svg",
+          "hash": "5652727865977396057"
+        },
+        {
+          "file": "libs/assets/src/lib/icons/kyc-rocket.svg",
+          "hash": "1544360655645293152"
+        },
+        {
+          "file": "libs/assets/src/lib/icons/onboarding-v2-pattern.svg",
+          "hash": "485917201659666657"
+        },
+        {
+          "file": "libs/assets/src/lib/images/kyc-limit-v3.png",
+          "hash": "11703356293081281169"
+        },
+        {
+          "file": "libs/assets/src/lib/index.ts",
+          "hash": "1384754223391427295"
+        },
+        {
+          "file": "libs/assets/tsconfig.json",
+          "hash": "10374583890390798648"
+        },
+        {
+          "file": "libs/assets/tsconfig.lib.json",
+          "hash": "6750625921117520019"
+        },
+        {
+          "file": "libs/assets/tsconfig.spec.json",
+          "hash": "1639484752449595699"
+        },
+        {
+          "file": "libs/assets/vite.config.ts",
+          "hash": "10992100525374670253",
+          "deps": [
+            "npm:vite",
+            "npm:@vitejs/plugin-react",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite"
+          ]
+        }
+      ],
       "modules": [
         {
           "file": "libs/modules/.babelrc",
@@ -2079,202 +2275,6 @@
         {
           "file": "apps/host-e2e/tsconfig.json",
           "hash": "13413400511057489941"
-        }
-      ],
-      "bo-account-upgrade": [
-        {
-          "file": "apps/bo-account-upgrade/eslint.config.js",
-          "hash": "18206053935892145363",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade/index.html",
-          "hash": "14073300661398501491"
-        },
-        {
-          "file": "apps/bo-account-upgrade/jest.config.ts",
-          "hash": "1977374300478817034"
-        },
-        {
-          "file": "apps/bo-account-upgrade/postcss.config.js",
-          "hash": "2759402739052110475"
-        },
-        {
-          "file": "apps/bo-account-upgrade/project.json",
-          "hash": "6972993948536411141"
-        },
-        {
-          "file": "apps/bo-account-upgrade/public/moniepoint.svg",
-          "hash": "13831450454176140861"
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/app/app.spec.tsx",
-          "hash": "15153480058052510948",
-          "deps": [
-            "npm:@testing-library/react",
-            "core",
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/app/app.tsx",
-          "hash": "5984870146377916649",
-          "deps": [
-            "npm:react-router-dom",
-            "core"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/app/pages/level-2/primer/page.spec.tsx",
-          "hash": "327644491652948535",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/app/pages/level-2/primer/page.tsx",
-          "hash": "12976933391346942164",
-          "deps": [
-            "shared"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/app/routes/index.ts",
-          "hash": "11730198817445143901"
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/app/routes/routes.tsx",
-          "hash": "11081946602165369600",
-          "deps": [
-            "npm:react-router-dom"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/main.tsx",
-          "hash": "2476887656571095242",
-          "deps": [
-            "npm:react",
-            "npm:react-dom",
-            "store"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade/src/styles.scss",
-          "hash": "2913406151604544656"
-        },
-        {
-          "file": "apps/bo-account-upgrade/tailwind.config.js",
-          "hash": "3734731730687097299",
-          "deps": [
-            "npm:@kamona/tailwind-plugin",
-            "npm:@nx/react"
-          ]
-        },
-        {
-          "file": "apps/bo-account-upgrade/tsconfig.app.json",
-          "hash": "14768608741124992156"
-        },
-        {
-          "file": "apps/bo-account-upgrade/tsconfig.json",
-          "hash": "10005506710784232646"
-        },
-        {
-          "file": "apps/bo-account-upgrade/tsconfig.spec.json",
-          "hash": "13517670145554637735"
-        },
-        {
-          "file": "apps/bo-account-upgrade/vite.config.ts",
-          "hash": "11874843696639466119",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:@nx/vite",
-            "npm:@originjs/vite-plugin-federation",
-            [
-              "npm:tailwindcss",
-              "dynamic"
-            ],
-            [
-              "npm:autoprefixer",
-              "dynamic"
-            ]
-          ]
-        }
-      ],
-      "ui": [
-        {
-          "file": "libs/ui/.babelrc",
-          "hash": "2946678488919325452"
-        },
-        {
-          "file": "libs/ui/README.md",
-          "hash": "3098996868279451883"
-        },
-        {
-          "file": "libs/ui/eslint.config.js",
-          "hash": "18206053935892145363",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "libs/ui/jest.config.ts",
-          "hash": "13474916275127748991"
-        },
-        {
-          "file": "libs/ui/package.json",
-          "hash": "17123633284619242093"
-        },
-        {
-          "file": "libs/ui/project.json",
-          "hash": "12196302964876651695"
-        },
-        {
-          "file": "libs/ui/src/index.ts",
-          "hash": "5977848407072712979"
-        },
-        {
-          "file": "libs/ui/src/lib/ui.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "libs/ui/src/lib/ui.spec.tsx",
-          "hash": "7298740781061202243",
-          "deps": [
-            "npm:@testing-library/react"
-          ]
-        },
-        {
-          "file": "libs/ui/src/lib/ui.tsx",
-          "hash": "4491339686164950377"
-        },
-        {
-          "file": "libs/ui/tsconfig.json",
-          "hash": "12937361759397702261"
-        },
-        {
-          "file": "libs/ui/tsconfig.lib.json",
-          "hash": "10514678202960682525"
-        },
-        {
-          "file": "libs/ui/tsconfig.spec.json",
-          "hash": "1639484752449595699"
-        },
-        {
-          "file": "libs/ui/vite.config.ts",
-          "hash": "17117486665434669404",
-          "deps": [
-            "npm:vite",
-            "npm:@vitejs/plugin-react",
-            "npm:vite-plugin-dts",
-            "npm:@nx/vite"
-          ]
         }
       ]
     }
