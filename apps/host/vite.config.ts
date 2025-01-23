@@ -48,7 +48,7 @@ export default defineConfig({
         './styles': './src/styles.scss',
       },
       remotes: {
-        boApp: 'http://localhost:4301/assets/remoteEntry.js',
+        boApp: 'https://cdn-staging.moniepoint.com/account-upgrade-dev/bo-account-upgrade/assets/remoteEntry.js',
         brmApp: 'http://localhost:4302/assets/remoteEntry.js',
       },
       shared: {
