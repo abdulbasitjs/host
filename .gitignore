@@ -6,4 +6,4 @@ gcr.json
 .vscode/*
 cors-config.json
 website-config.json
-.nx/**
+.nx/*

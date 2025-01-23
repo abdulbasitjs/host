@@ -7,7 +7,6 @@ import federation from '@originjs/vite-plugin-federation';
 import path from 'path';
 
 export default defineConfig({
-  base: './',
   root: __dirname,
   cacheDir: '../../node_modules/.vite/apps/host',
   server: {
